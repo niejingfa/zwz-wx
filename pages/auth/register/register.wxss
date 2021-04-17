@@ -1,0 +1,187 @@
+.form-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0 40rpx;
+  margin-top: 96rpx;
+  background: #fff;
+}
+
+.form-item {
+  position: relative;
+  background: #fff;
+  height: 96rpx;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.form-item .username, .form-item .password, .form-item .mobile, .form-item .code {
+  position: absolute;
+  top: 26rpx;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 44rpx;
+  background: #fff;
+  color: #333;
+  font-size: 30rpx;
+}
+
+.form-item-code {
+  margin-top: 32rpx;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.form-item-code .form-item {
+  float: left;
+  width: 350rpx;
+}
+
+.form-item-code .code-btn {
+  float: right;
+  padding: 20rpx 40rpx;
+  border: 1px solid #d9d9d9;
+  border-radius: 10rpx;
+  color: #fff;
+  background: green;
+}
+
+.form-item .clear {
+  position: absolute;
+  top: 32rpx;
+  right: 18rpx;
+  z-index: 2;
+  display: block;
+  background: #fff;
+}
+
+.register-btn {
+  margin: 60rpx 0 40rpx 0;
+  height: 96rpx;
+  line-height: 96rpx;
+  color: #fff;
+  font-size: 30rpx;
+  width: 100%;
+  border-radius: 6rpx;
+}
+
+.height__280 {
+  height: 280rpx;
+}
+
+.upload-btn {
+  background: grey !important;
+  margin: 60rpx 0 40rpx 0;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #fff;
+  font-size: 30rpx;
+  width: 40%;
+  border-radius: 6rpx;
+}
+
+.form-default {
+  border-bottom: 1px solid #d9d9d9;
+  height: 96rpx;
+  background: #fff;
+  padding-top: 28rpx;
+  font-size: 28rpx;
+}
+
+.form-default .van-checkbox .van-icon {
+  color: #fff;
+}
+
+.region-select {
+  width: 100%;
+  height: 600rpx;
+  background: #fff;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  bottom: 0;
+}
+
+.region-select .hd {
+  height: 108rpx;
+  width: 100%;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 46rpx 30rpx 0 30rpx;
+}
+
+.region-select .region-selected {
+  float: left;
+  height: 60rpx;
+  display: flex;
+}
+
+.region-select .region-selected .item {
+  max-width: 140rpx;
+  margin-right: 30rpx;
+  text-align: left;
+  line-height: 60rpx;
+  height: 100%;
+  color: #333;
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.region-select .region-selected .item.disabled {
+  color: #999;
+}
+
+.region-select .region-selected .item.selected {
+  color: #b4282d;
+}
+
+.region-select .done {
+  float: right;
+  height: 60rpx;
+  width: 60rpx;
+  border: none;
+  background: #fff;
+  line-height: 60rpx;
+  text-align: center;
+  color: #333;
+  font-size: 28rpx;
+}
+
+.region-select .done.disabled {
+  color: #999;
+}
+
+.region-select .bd {
+  height: 492rpx;
+  width: 100%;
+  padding: 0 30rpx;
+}
+
+.region-select .region-list {
+  height: 492rpx;
+}
+
+.region-select .region-list .item {
+  width: 100%;
+  height: 104rpx;
+  line-height: 104rpx;
+  text-align: left;
+  color: #333;
+  font-size: 28rpx;
+}
+
+.region-select .region-list .item.selected {
+  color: #b4282d;
+}
+
+.bg-mask {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8;
+}

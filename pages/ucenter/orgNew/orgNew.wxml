@@ -1,0 +1,24 @@
+<view class="add-address">
+  <view class="add-form">
+    <view class="form-item">
+      <input class="input" bindinput="bindinputName" placeholder="姓名" value="{{user.name}}" auto-focus/>
+    </view>
+    <view class="form-item">
+      <input class="input" bindinput="bindinputMobile" value="{{user.tel}}" placeholder="手机号码" />
+    </view>
+    <view class="form-item">
+      <input class="input" type="file" bindinput="bindinputPhoto" value="{{user.idPhoto}}" placeholder="证件照" />
+    </view>
+    <view class="form-item">
+      <input class="input" bindinput="bindinputAddress" value="{{user.addressDetail}}" placeholder="商户地址" />
+    </view>
+    <view class="form-item">
+      <input class="input" type='password' bindinput="bindinputPassword" value="{{user.password}}" placeholder="密码" />
+    </view>
+  </view>
+
+  <view class="btns">
+    <button class="cannel" bindtap="cancelOrg">取消</button>
+    <button class="save" bindtap="saveOrg">保存</button>
+  </view>
+</view>
