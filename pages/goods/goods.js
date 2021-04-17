@@ -40,7 +40,7 @@ Page({
     return {
       title: that.data.goods.name,
       desc: '唯爱与美食不可辜负',
-      path: '/pages/index/index?goodId=' + this.data.id
+      path: '/pages/index/index?goodId=' + this.data.id + '&from=' + wx.getStorageSync('userInfo').nickName
     }
   },
 
