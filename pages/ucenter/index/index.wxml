@@ -3,6 +3,7 @@
     <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
     <view class="info">
       <text class="name">{{userInfo.nickName}}</text>
+      <text wx:if="{{ userInfo.nickName != '点击登录' }}" class="commission">可提佣金：￥{{userInfo.commission || 0.0}}元</text>
     </view>
   </view>
 

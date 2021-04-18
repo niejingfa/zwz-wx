@@ -41,6 +41,10 @@ page {
   margin-bottom: 10rpx;
 }
 
+.profile-info .commission {
+  color: red;
+}
+
 .profile-info .level {
   display: block;
   height: 30rpx;
